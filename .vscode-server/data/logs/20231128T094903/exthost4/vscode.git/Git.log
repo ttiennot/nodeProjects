@@ -1,0 +1,177 @@
+2023-11-28 10:12:07.763 [info] Log level: Info
+2023-11-28 10:12:07.763 [info] Validating found git in: "git"
+2023-11-28 10:12:07.764 [info] Using git "2.30.2" from "git"
+2023-11-28 10:12:07.764 [info] > git rev-parse --show-toplevel [45ms]
+2023-11-28 10:12:07.764 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:12:07.764 [info] > git rev-parse --show-toplevel [116ms]
+2023-11-28 10:12:07.764 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:12:07.765 [info] > git rev-parse --show-toplevel [31ms]
+2023-11-28 10:12:07.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:12:07.765 [info] > git rev-parse --show-toplevel [51ms]
+2023-11-28 10:12:07.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:12:07.774 [info] > git rev-parse --show-toplevel [388ms]
+2023-11-28 10:12:07.774 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:12:07.884 [info] > git rev-parse --show-toplevel [81ms]
+2023-11-28 10:12:07.895 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:20:27.218 [info] > git rev-parse --show-toplevel [10ms]
+2023-11-28 10:20:27.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:21:01.819 [info] > git rev-parse --show-toplevel [12ms]
+2023-11-28 10:21:01.820 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:21:02.642 [info] > git rev-parse --show-toplevel [21ms]
+2023-11-28 10:21:02.643 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:21:06.190 [info] > git rev-parse --show-toplevel [26ms]
+2023-11-28 10:21:06.191 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:21:13.638 [info] > git rev-parse --show-toplevel [9ms]
+2023-11-28 10:21:13.638 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:21:14.876 [info] > git rev-parse --show-toplevel [11ms]
+2023-11-28 10:21:14.878 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:30:47.399 [info] > git rev-parse --show-toplevel [14ms]
+2023-11-28 10:30:47.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:52:13.157 [info] > git rev-parse --show-toplevel [30ms]
+2023-11-28 10:52:13.170 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:52:21.518 [info] > git rev-parse --show-toplevel [12ms]
+2023-11-28 10:52:21.518 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:52:39.987 [info] > git rev-parse --show-toplevel [23ms]
+2023-11-28 10:52:39.988 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:52:41.966 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-28 10:52:41.971 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 10:52:45.301 [info] > git rev-parse --show-toplevel [19ms]
+2023-11-28 10:52:45.302 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 11:27:00.237 [info] > git rev-parse --show-toplevel [23ms]
+2023-11-28 11:27:00.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 11:40:02.184 [info] > git init -b main [238ms]
+2023-11-28 11:40:02.831 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-28 11:40:02.845 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-11-28 11:40:02.890 [info] Open repository: /home/debian
+2023-11-28 11:40:02.922 [info] No remotes found in the git config file.
+2023-11-28 11:40:02.925 [info] > git config --get commit.template [19ms]
+2023-11-28 11:40:02.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:40:03.157 [info] > git status -z -uall [213ms]
+2023-11-28 11:40:03.381 [info] > git fetch [492ms]
+2023-11-28 11:40:04.865 [info] > git check-ignore -v -z --stdin [80ms]
+2023-11-28 11:40:04.869 [info] > git config --get commit.template [98ms]
+2023-11-28 11:40:04.870 [info] > git config --get commit.template [111ms]
+2023-11-28 11:40:04.882 [info] No remotes found in the git config file.
+2023-11-28 11:40:04.893 [info] No remotes found in the git config file.
+2023-11-28 11:40:04.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2023-11-28 11:40:04.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2023-11-28 11:40:05.037 [info] > git status -z -uall [122ms]
+2023-11-28 11:40:06.525 [info] > git show --textconv :projettiennot/application.js [17ms]
+2023-11-28 11:40:06.534 [info] > git ls-files --stage -- /home/debian/projettiennot/application.js [13ms]
+2023-11-28 11:40:08.896 [info] > git check-ignore -v -z --stdin [5ms]
+2023-11-28 11:40:09.463 [info] No remotes found in the git config file.
+2023-11-28 11:40:09.464 [info] > git config --get commit.template [14ms]
+2023-11-28 11:40:09.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-11-28 11:40:09.535 [info] > git status -z -uall [59ms]
+2023-11-28 11:40:14.630 [info] No remotes found in the git config file.
+2023-11-28 11:40:14.632 [info] > git config --get commit.template [14ms]
+2023-11-28 11:40:14.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:40:14.706 [info] > git status -z -uall [63ms]
+2023-11-28 11:40:15.950 [info] > git check-ignore -v -z --stdin [100ms]
+2023-11-28 11:40:19.847 [info] > git config --get commit.template [10ms]
+2023-11-28 11:40:19.862 [info] No remotes found in the git config file.
+2023-11-28 11:40:19.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:40:19.944 [info] > git status -z -uall [66ms]
+2023-11-28 11:40:21.195 [info] > git check-ignore -v -z --stdin [38ms]
+2023-11-28 11:40:25.061 [info] No remotes found in the git config file.
+2023-11-28 11:40:25.064 [info] > git config --get commit.template [16ms]
+2023-11-28 11:40:25.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:40:25.139 [info] > git status -z -uall [62ms]
+2023-11-28 11:40:29.062 [info] > git show --textconv :.gitignore [15ms]
+2023-11-28 11:40:29.075 [info] > git ls-files --stage -- /home/debian/.gitignore [14ms]
+2023-11-28 11:40:29.310 [info] > git check-ignore -v -z --stdin [4ms]
+2023-11-28 11:40:30.241 [info] No remotes found in the git config file.
+2023-11-28 11:40:30.243 [info] > git config --get commit.template [14ms]
+2023-11-28 11:40:30.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:40:30.320 [info] > git status -z -uall [66ms]
+2023-11-28 11:40:35.438 [info] No remotes found in the git config file.
+2023-11-28 11:40:35.440 [info] > git config --get commit.template [18ms]
+2023-11-28 11:40:35.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:40:35.526 [info] > git status -z -uall [73ms]
+2023-11-28 11:40:40.656 [info] No remotes found in the git config file.
+2023-11-28 11:40:40.661 [info] > git config --get commit.template [19ms]
+2023-11-28 11:40:40.662 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:40:40.790 [info] > git status -z -uall [117ms]
+2023-11-28 11:40:45.942 [info] No remotes found in the git config file.
+2023-11-28 11:40:45.945 [info] > git config --get commit.template [18ms]
+2023-11-28 11:40:45.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:40:46.040 [info] > git status -z -uall [82ms]
+2023-11-28 11:40:51.176 [info] No remotes found in the git config file.
+2023-11-28 11:40:51.180 [info] > git config --get commit.template [22ms]
+2023-11-28 11:40:51.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-11-28 11:40:51.270 [info] > git status -z -uall [75ms]
+2023-11-28 11:41:24.311 [info] No remotes found in the git config file.
+2023-11-28 11:41:24.318 [info] > git config --get commit.template [20ms]
+2023-11-28 11:41:24.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-11-28 11:41:24.414 [info] > git status -z -uall [83ms]
+2023-11-28 11:41:29.558 [info] No remotes found in the git config file.
+2023-11-28 11:41:29.560 [info] > git config --get commit.template [18ms]
+2023-11-28 11:41:29.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:41:29.644 [info] > git status -z -uall [72ms]
+2023-11-28 11:41:34.783 [info] No remotes found in the git config file.
+2023-11-28 11:41:34.784 [info] > git config --get commit.template [19ms]
+2023-11-28 11:41:34.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:41:34.868 [info] > git status -z -uall [71ms]
+2023-11-28 11:41:39.974 [info] No remotes found in the git config file.
+2023-11-28 11:41:39.976 [info] > git config --get commit.template [19ms]
+2023-11-28 11:41:39.979 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-11-28 11:41:40.063 [info] > git status -z -uall [74ms]
+2023-11-28 11:42:21.901 [info] No remotes found in the git config file.
+2023-11-28 11:42:21.904 [info] > git config --get commit.template [16ms]
+2023-11-28 11:42:21.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-11-28 11:42:22.001 [info] > git status -z -uall [84ms]
+2023-11-28 11:42:24.999 [info] > git check-ignore -v -z --stdin [12ms]
+2023-11-28 11:42:25.989 [info] > git check-ignore -v -z --stdin [8ms]
+2023-11-28 11:42:26.751 [info] > git check-ignore -v -z --stdin [11ms]
+2023-11-28 11:42:27.153 [info] No remotes found in the git config file.
+2023-11-28 11:42:27.155 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:42:27.156 [info] > git config --get commit.template [28ms]
+2023-11-28 11:42:27.239 [info] > git status -z -uall [71ms]
+2023-11-28 11:42:32.380 [info] > git check-ignore -v -z --stdin [19ms]
+2023-11-28 11:42:32.386 [info] > git config --get commit.template [9ms]
+2023-11-28 11:42:32.396 [info] No remotes found in the git config file.
+2023-11-28 11:42:32.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-11-28 11:42:32.497 [info] > git status -z -uall [84ms]
+2023-11-28 11:42:37.651 [info] No remotes found in the git config file.
+2023-11-28 11:42:37.653 [info] > git config --get commit.template [35ms]
+2023-11-28 11:42:37.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2023-11-28 11:42:37.755 [info] > git status -z -uall [75ms]
+2023-11-28 11:42:42.878 [info] No remotes found in the git config file.
+2023-11-28 11:42:42.881 [info] > git config --get commit.template [20ms]
+2023-11-28 11:42:42.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:42:42.969 [info] > git status -z -uall [75ms]
+2023-11-28 11:42:45.978 [info] > git add -A -- /home/debian/.gitignore [13ms]
+2023-11-28 11:42:46.011 [info] No remotes found in the git config file.
+2023-11-28 11:42:46.013 [info] > git config --get commit.template [17ms]
+2023-11-28 11:42:46.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:42:46.236 [info] > git status -z -uall [211ms]
+2023-11-28 11:42:47.827 [info] > git ls-files --stage -- /home/debian/.gitignore [6ms]
+2023-11-28 11:42:47.841 [info] > git cat-file -s 9f6f0d08be2de448c0527b775a078db90437d15e [3ms]
+2023-11-28 11:42:47.860 [info] > git show --textconv :.gitignore [5ms]
+2023-11-28 11:42:48.067 [info] > git config --get commit.template [4ms]
+2023-11-28 11:42:48.081 [info] No remotes found in the git config file.
+2023-11-28 11:42:48.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-11-28 11:42:48.171 [info] > git status -z -uall [74ms]
+2023-11-28 11:42:53.313 [info] No remotes found in the git config file.
+2023-11-28 11:42:53.315 [info] > git config --get commit.template [19ms]
+2023-11-28 11:42:53.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-11-28 11:42:53.404 [info] > git status -z -uall [76ms]
+2023-11-28 11:42:58.507 [info] No remotes found in the git config file.
+2023-11-28 11:42:58.510 [info] > git config --get commit.template [20ms]
+2023-11-28 11:42:58.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-11-28 11:42:58.597 [info] > git status -z -uall [75ms]
+2023-11-28 11:43:03.732 [info] No remotes found in the git config file.
+2023-11-28 11:43:06.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3048ms]
+2023-11-28 11:43:06.783 [info] > git config --get commit.template [3066ms]
+2023-11-28 11:43:06.797 [info] > git check-ignore -v -z --stdin [21ms]
+2023-11-28 11:43:06.904 [info] > git status -z -uall [108ms]
+2023-11-28 11:43:07.020 [info] > git fetch [14ms]
+2023-11-28 11:43:07.983 [info] > git config --get commit.template [951ms]
+2023-11-28 11:43:08.101 [info] No remotes found in the git config file.
+2023-11-28 11:43:08.108 [info] > git check-ignore -v -z --stdin [103ms]
+2023-11-28 11:43:08.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [31ms]
+2023-11-28 11:43:08.416 [info] > git status -z -uall [219ms]
+2023-11-28 11:43:09.463 [info] > git check-ignore -v -z --stdin [19ms]
+2023-11-28 11:43:09.716 [info] > git ls-files --stage -- /home/debian/.gitignore [6ms]
+2023-11-28 11:43:09.729 [info] > git cat-file -s 9f6f0d08be2de448c0527b775a078db90437d15e [3ms]
+2023-11-28 11:43:09.749 [info] > git show --textconv :.gitignore [5ms]
