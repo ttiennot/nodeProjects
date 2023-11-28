@@ -156,3 +156,5 @@ Cancelling previous shutdown timeout
 [11:43:23] [127.0.0.1][5f18e82f][ManagementConnection] New connection established.
 [11:43:23] [127.0.0.1][fcc7b902][ExtensionHostConnection] New connection established.
 [11:43:23] [127.0.0.1][fcc7b902][ExtensionHostConnection] <359806> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[11:48:23] New EH opened, aborting shutdown

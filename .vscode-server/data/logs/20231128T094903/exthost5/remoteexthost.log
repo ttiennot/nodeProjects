@@ -54,3 +54,6 @@
 2023-11-28 11:47:39.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2963
 2023-11-28 11:47:44.416 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2963
 2023-11-28 11:47:49.629 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2963
+2023-11-28 11:48:06.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2963
+2023-11-28 11:49:54.970 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-11-28 11:52:46.301 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
