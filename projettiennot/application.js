@@ -24,7 +24,7 @@ const bodyParser = require('body-parser');
 // Gestionnaire d'erreurs global
 process.on('uncaughtException', (err) => {
     console.error(`Une erreur non capturée s'est produite : ${err.message}`);
-    process.exit(1); // 1 signifie une sortie avec une erreur
+    process.exit(1); // 1 signifie une sortie avec une erreure
   });
   // Démarrer le serveur
 const server = app.listen(port, () => {
