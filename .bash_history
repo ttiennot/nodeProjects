@@ -43,3 +43,18 @@ npm init
 npm install express
 npm run
 node application.js
+git init
+git config --global user.name "ttiennot"
+git config --global user.email "thibaut.tiennot@gmail.com"
+git remote add origin https://github.com/ttiennot/ReactProjects
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/ttiennot/nodeProjects
+git remote add origin https://github.com/ttiennot/nodeProjects.git
+git remote rm origin
+git remote add origin https://github.com/ttiennot/nodeProjects.git
+git commit -m "first commit"
+cd projettiennot/
+node application.js
+npm start
+node application.js

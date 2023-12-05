@@ -2,9 +2,15 @@
 /node_modules
 /.pnp
 .pnp.js
-
+.npm
+node_modules
+package-lock.json
+package.json
 # testing
 /coverage
+.cache
+.local
+.vscode-server
 
 # production
 /build
